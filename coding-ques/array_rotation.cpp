@@ -15,7 +15,7 @@ void leftRoatatebyOne(int arr[], int n)
 }
 
 /* function to left Roatate arr[] of size n by d*/
-void leftRoatae(int arr[], int d, int n)
+void leftRoatate(int arr[], int d, int n)
 {
   for(int i=0;i < d; i++)
     leftRotatebyOne(arr, n);
